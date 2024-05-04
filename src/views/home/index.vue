@@ -178,13 +178,13 @@
           >
             <img
               class="position-absolute w-100 h-100 pt-5 pe-5"
-              src="./img/about-1.jpg"
+              src="/img/about-1.jpg"
               alt=""
               style="object-fit: cover"
             />
             <img
               class="position-absolute top-0 end-0 bg-white ps-2 pb-2"
-              src="./img/about-2.jpg"
+              src="/img/about-2.jpg"
               alt=""
               style="width: 200px; height: 200px"
             />
@@ -293,7 +293,7 @@
               </div>
             </div>
             <div class="position-relative mt-auto">
-              <img class="img-fluid" src="./img/courses-1.jpg" alt="" />
+              <img class="img-fluid" src="/img/courses-1.jpg" alt="" />
               <div class="causes-overlay">
                 <a class="btn btn-outline-primary" href="">
                   Read More
@@ -345,7 +345,7 @@
               </div>
             </div>
             <div class="position-relative mt-auto">
-              <img class="img-fluid" src="./img/courses-2.jpg" alt="" />
+              <img class="img-fluid" src="/img/courses-2.jpg" alt="" />
               <div class="causes-overlay">
                 <a class="btn btn-outline-primary" href="">
                   Read More
@@ -397,7 +397,7 @@
               </div>
             </div>
             <div class="position-relative mt-auto">
-              <img class="img-fluid" src="./img/courses-3.jpg" alt="" />
+              <img class="img-fluid" src="/img/courses-3.jpg" alt="" />
               <div class="causes-overlay">
                 <a class="btn btn-outline-primary" href="">
                   Read More
@@ -434,7 +434,7 @@
       <div class="row g-4 justify-content-center">
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-            <img class="img-fluid mb-4" src="./img/icon-1.png" alt="" />
+            <img class="img-fluid mb-4" src="/img/icon-1.png" alt="" />
             <h4 class="mb-3">Child Education</h4>
             <p class="mb-4">
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
@@ -452,7 +452,7 @@
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-            <img class="img-fluid mb-4" src="./img/icon-2.png" alt="" />
+            <img class="img-fluid mb-4" src="/img/icon-2.png" alt="" />
             <h4 class="mb-3">Medical Treatment</h4>
             <p class="mb-4">
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
@@ -470,7 +470,7 @@
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-            <img class="img-fluid mb-4" src="./img/icon-3.png" alt="" />
+            <img class="img-fluid mb-4" src="/img/icon-3.png" alt="" />
             <h4 class="mb-3">Pure Drinking Water</h4>
             <p class="mb-4">
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
@@ -495,7 +495,7 @@
   <div
     class="container-fluid donate my-5 py-5"
     data-parallax="scroll"
-    data-image-src="./img/carousel-2.jpg"
+    data-image-src="/img/carousel-2.jpg"
   >
     <div class="container py-5">
       <div class="row g-5 align-items-center">
@@ -612,7 +612,7 @@
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="team-item position-relative rounded overflow-hidden">
             <div class="overflow-hidden">
-              <img class="img-fluid" src="./img/team-1.jpg" alt="" />
+              <img class="img-fluid" src="/img/team-1.jpg" alt="" />
             </div>
             <div class="team-text bg-light text-center p-4">
               <h5>Full Name</h5>
@@ -634,7 +634,7 @@
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="team-item position-relative rounded overflow-hidden">
             <div class="overflow-hidden">
-              <img class="img-fluid" src="./img/team-2.jpg" alt="" />
+              <img class="img-fluid" src="/img/team-2.jpg" alt="" />
             </div>
             <div class="team-text bg-light text-center p-4">
               <h5>Full Name</h5>
@@ -656,7 +656,7 @@
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="team-item position-relative rounded overflow-hidden">
             <div class="overflow-hidden">
-              <img class="img-fluid" src="./img/team-3.jpg" alt="" />
+              <img class="img-fluid" src="/img/team-3.jpg" alt="" />
             </div>
             <div class="team-text bg-light text-center p-4">
               <h5>Full Name</h5>
@@ -678,7 +678,7 @@
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
           <div class="team-item position-relative rounded overflow-hidden">
             <div class="overflow-hidden">
-              <img class="img-fluid" src="./img/team-4.jpg" alt="" />
+              <img class="img-fluid" src="/img/team-4.jpg" alt="" />
             </div>
             <div class="team-text bg-light text-center p-4">
               <h5>Full Name</h5>
@@ -726,7 +726,7 @@
         <div class="testimonial-item text-center">
           <img
             class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-            src="././img/testimonial-1.jpg"
+            src="/./img/testimonial-1.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text rounded text-center p-4">
@@ -742,7 +742,7 @@
         <div class="testimonial-item text-center">
           <img
             class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-            src="./img/testimonial-2.jpg"
+            src="/img/testimonial-2.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text rounded text-center p-4">
@@ -758,7 +758,7 @@
         <div class="testimonial-item text-center">
           <img
             class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-            src=".//img/testimonial-3.jpg"
+            src="//img/testimonial-3.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text rounded text-center p-4">
