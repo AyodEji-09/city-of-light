@@ -1,144 +1,31 @@
 <template>
-  <!-- Navbar Start -->
-  <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-    <div
-      class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex"
-    >
-      <div class="col-lg-6 px-5 text-start">
-        <small
-          ><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York,
-          USA</small
-        >
-        <small class="ms-4"
-          ><i class="fa fa-envelope me-2"></i>info@example.com</small
-        >
-      </div>
-      <div class="col-lg-6 px-5 text-end">
-        <small>Follow us:</small>
-        <a class="text-white-50 ms-3" href=""
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-        <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
-        <a class="text-white-50 ms-3" href=""
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a class="text-white-50 ms-3" href=""
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </div>
-    </div>
-
-    <nav
-      class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-        <h1 class="fw-bold text-primary m-0">
-          Chari<span class="text-white">Team</span>
-        </h1>
-      </a>
-      <button
-        type="button"
-        class="navbar-toggler me-4"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="causes.html" class="nav-item nav-link">Causes</a>
-          <div class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              >Pages</a
-            >
-            <div class="dropdown-menu m-0">
-              <a href="service.html" class="dropdown-item">Service</a>
-              <a href="donate.html" class="dropdown-item">Donate</a>
-              <a href="team.html" class="dropdown-item">Our Team</a>
-              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-              <a href="404.html" class="dropdown-item">404 Page</a>
-            </div>
-          </div>
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
-        </div>
-        <div class="d-none d-lg-flex ms-2">
-          <a class="btn btn-outline-primary py-2 px-3" href="">
-            Donate Now
-            <div
-              class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
-            >
-              <i class="fa fa-arrow-right"></i>
-            </div>
-          </a>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <!-- Navbar End -->
-
   <!-- Carousel Start -->
   <div class="container-fluid p-0 mb-5">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="w-100" src="/img/carousel-1.jpg" alt="Image" />
+          <img class="w-100" src="/img/service1.jpg" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-7 pt-5">
+              <div class="row justify-content-center align-items-center pt-5">
+                <div class="col-lg-8">
                   <h1 class="display-4 text-white mb-3 animated slideInDown">
-                    Let's Change The World With Humanity
+                    ...And God said, “Let there be light,” and there was light.
                   </h1>
                   <p class="fs-5 text-white-50 mb-5 animated slideInDown">
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                    stet lorem sit clita duo justo erat amet
+                    The Redeemed Christain Church of God
                   </p>
-                  <a
-                    class="btn btn-primary py-2 px-3 animated slideInDown"
-                    href=""
+                  <router-link
+                    class="btn btn-primary py-2 mt-5 px-3 animated slideInDown"
+                    to="/about"
                   >
-                    Learn More
+                    Read More
                     <div
                       class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
                     >
                       <i class="fa fa-arrow-right"></i>
                     </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="w-100" src="/img/carousel-2.jpg" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-7 pt-5">
-                  <h1 class="display-4 text-white mb-3 animated slideInDown">
-                    Let's Save More Lifes With Our Helping Hand
-                  </h1>
-                  <p class="fs-5 text-white-50 mb-5 animated slideInDown">
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                    stet lorem sit clita duo justo erat amet
-                  </p>
-                  <a
-                    class="btn btn-primary py-2 px-3 animated slideInDown"
-                    href=""
-                  >
-                    Learn More
-                    <div
-                      class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
-                    >
-                      <i class="fa fa-arrow-right"></i>
-                    </div>
-                  </a>
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -726,7 +613,7 @@
         <div class="testimonial-item text-center">
           <img
             class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-            src="/./img/testimonial-1.jpg"
+            src="/img/testimonial-1.jpg"
             style="width: 100px; height: 100px"
           />
           <div class="testimonial-text rounded text-center p-4">

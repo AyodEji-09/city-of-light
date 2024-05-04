@@ -24,18 +24,18 @@
       </div>
       <div class="col-lg-6 px-5 text-end">
         <small>Follow us:</small>
-        <a class="text-white-50 ms-3" href=""
+        <router-link class="text-white-50 ms-3" to=""
           ><i class="fab fa-facebook-f"></i>{{
-        }}</a>
-        <a class="text-white-50 ms-3" href=""
+        }}</router-link>
+        <router-link class="text-white-50 ms-3" to=""
           ><i class="fab fa-twitter"></i>{{
-        }}</a>
-        <a class="text-white-50 ms-3" href=""
+        }}</router-link>
+        <router-link class="text-white-50 ms-3" to=""
           ><i class="fab fa-linkedin-in"></i>{{
-        }}</a>
-        <a class="text-white-50 ms-3" href=""
+        }}</router-link>
+        <router-link class="text-white-50 ms-3" to=""
           ><i class="fab fa-instagram"></i>{{
-        }}</a>
+        }}</router-link>
       </div>
     </div>
 
@@ -43,11 +43,12 @@
       class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
-      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-        <h1 class="fw-bold text-primary m-0">
-          Chari<span class="text-white">Team</span>
-        </h1>
-      </a>
+      <router-link to="/" class="navbar-brand ms-4 ms-lg-0">
+        <img src="/img/logo.png" alt="logo" class="rounded shadow img-fluid" width="70px"/>
+        <!-- <h1 class="fw-bold text-primary m-0">
+          City <span class="text-white">Of</span> Light
+        </h1> -->
+      </router-link>
       <button
         type="button"
         class="navbar-toggler me-4"
@@ -57,36 +58,52 @@
         <span class="navbar-toggler-icon"></span> {{}}
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="causes.html" class="nav-item nav-link">Causes</a>
-          <div class="nav-item dropdown">
-            <a
-              href="#"
+        <div class="navbar-nav m-auto p-4 p-lg-0">
+          <router-link to="/" class="nav-item nav-link active"
+            >Home</router-link
+          >
+          <router-link to="/about" class="nav-item nav-link">About</router-link>
+          <router-link to="/service" class="nav-item nav-link"
+            >Service</router-link
+          >
+          <!-- <div class="nav-item dropdown">
+            <router-link
+              to="#"
               class="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
-              >Pages</a
+              >Pages</router-link
             >
             <div class="dropdown-menu m-0">
-              <a href="service.html" class="dropdown-item">Service</a>
-              <a href="donate.html" class="dropdown-item">Donate</a>
-              <a href="team.html" class="dropdown-item">Our Team</a>
-              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-              <a href="404.html" class="dropdown-item">404 Page</a>
+              <router-link to="service.html" class="dropdown-item"
+                >Service</router-link
+              >
+              <router-link to="donate.html" class="dropdown-item"
+                >Donate</router-link
+              >
+              <router-link to="team.html" class="dropdown-item"
+                >Our Team</router-link
+              >
+              <router-link to="testimonial.html" class="dropdown-item"
+                >Testimonial</router-link
+              >
+              <router-link to="404.html" class="dropdown-item"
+                >404 Page</router-link
+              >
             </div>
-          </div>
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div> -->
+          <!-- <router-link to="/contact" class="nav-item nav-link"
+            >Contact</router-link
+          > -->
         </div>
         <div class="d-none d-lg-flex ms-2">
-          <a class="btn btn-outline-primary py-2 px-3" href="">
-            Donate Now
+          <router-link class="btn btn-outline-primary py-2 px-3" to="/contact">
+           Contact 
             <div
               class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
             >
               <i class="fa fa-arrow-right"></i>
             </div>
-          </a>
+          </router-link>
         </div>
       </div>
     </nav>
@@ -111,7 +128,7 @@ var spinner = function () {
 spinner();
 
 // Initiate the wowjs
-  new WOW().init();
+new WOW().init();
 
 // Fixed Navbar
 $(window).scroll(function () {
