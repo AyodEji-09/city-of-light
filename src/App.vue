@@ -1,27 +1,22 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
+<script setup></script>
 
 <template>
-  <div>
-    <img
-      src="https://img.freepik.com/free-vector/flat-construction-template_23-2147735518.jpg?t=st=1713273302~exp=1713276902~hmac=8b528702145849ed86624e95d4788a3c31cba587687b86c2cc1f9cd17a4f014a&w=740"
-      alt=""
-    />
-  </div>
+  <!-- <div class="overlay d-flex justify-content-center align-items-center">
+    <img src="./assets/images/loading.svg" alt="loading" />
+  </div> -->
+  <router-view></router-view>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+/* .overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000000;
+} */
 </style>
