@@ -1,5 +1,9 @@
 <template>
     <div class="container-fluid p-0 mb-5">
-        service page
+      <SubHeader page="Service"/>
+     Service page
     </div>
-</template>
+  </template>
+  <script setup>
+  import SubHeader from "../../components/includes/SubHeader.vue";
+  </script>

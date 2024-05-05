@@ -45,9 +45,6 @@
     >
       <router-link to="/" class="navbar-brand ms-4 ms-lg-0">
         <img src="/img/logo.png" alt="logo" class="rounded shadow img-fluid" width="70px"/>
-        <!-- <h1 class="fw-bold text-primary m-0">
-          City <span class="text-white">Of</span> Light
-        </h1> -->
       </router-link>
       <button
         type="button"
