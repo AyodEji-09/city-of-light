@@ -4,13 +4,13 @@
     <div class="d-flex justify-content-center gap-5 flex-column align-items-center ">
       <div class="container d-flex justify-content-center flex-column gap-2 align-items-center animated slideInDown">
       <h1 class="text-primary">Our Vision</h1>
-      <p class="px-5 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT (COL)</Strong> is a pioneering youth church 
+      <p class="px-md-5 px-2 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT (COL)</Strong> is a pioneering youth church 
         operating under the Young Adults and Youth Affairs (YAYA) 
         division of the Redeemed Christian Church of God.
         City of Lights is a community focused on bringing youths 
         and young adults into the Light of Christ so they can shine
         their God-given light to the world.
-        <em> 
+        <em>  
         <strong>Matthew 5:14-16 </strong>
         You are the light of the world. A town built on a hill cannot be hidden.
          Neither do people light a lamp and put it under a bowl. Instead they put it on its stand, and it gives 
@@ -20,8 +20,8 @@
       </p>
     </div>
     <div class="container d-flex justify-content-center gap-2 flex-column  align-items-center wow animated slideInUp" data-wow-delay="0.1s">
-      <h1 class="text-primary">Who are we reaching and why?</h1>
-      <p class="px-5 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT </Strong> is primarily based in Greenwich, 
+      <h1 class="text-primary text-center">Who are we reaching and why?</h1>
+      <p class="px-md-5 px-2 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT </Strong> is primarily based in Greenwich, 
         CT, but our reach extends to youths and young adults across Connecticut. Our target
          demographic encompasses high school and college students, non-students, and young working
           professionals, among others.
@@ -38,7 +38,7 @@
 <!--         <img src="/img/newlog.png" alt="logo" class="rounded  img-fluid" width="px2rem(600)"/>
  -->      <div>
 
-        <div class="d-flex  flex-column justify-content-center align-content-center gap-2 ">
+        <div class="d-flex container  flex-column justify-content-center align-content-center gap-2 ">
           <div class="d-flex flex-column gap-3">
             <div class="d-flex flex-row gap-3 wow slideInLeft " data-wow-delay="0.1s">
               <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 512 512">
