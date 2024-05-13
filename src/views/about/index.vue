@@ -4,7 +4,7 @@
     <div class="d-flex justify-content-center gap-5 flex-column align-items-center ">
       <div class="container d-flex justify-content-center flex-column gap-2 align-items-center animated slideInDown">
       <h1 class="text-primary">Our Vision</h1>
-      <p class="px-md-5 px-2 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT (COL)</Strong> is a pioneering youth church 
+      <p class="px-md-5 col-12 col-md-9  px-2 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT (COL)</Strong> is a pioneering youth church 
         operating under the Young Adults and Youth Affairs (YAYA) 
         division of the Redeemed Christian Church of God.
         City of Lights is a community focused on bringing youths 
@@ -21,7 +21,7 @@
     </div>
     <div class="container d-flex justify-content-center gap-2 flex-column  align-items-center wow animated slideInUp" data-wow-delay="0.1s">
       <h1 class="text-primary text-center">Who are we reaching and why?</h1>
-      <p class="px-md-5 px-2 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT </Strong> is primarily based in Greenwich, 
+      <p class="px-md-5 px-2 col-12 col-md-9 mt-2 text-center lh-lg"><Strong class="text-info">CITY OF LIGHT </Strong> is primarily based in Greenwich, 
         CT, but our reach extends to youths and young adults across Connecticut. Our target
          demographic encompasses high school and college students, non-students, and young working
           professionals, among others.
@@ -100,7 +100,7 @@
       </div>
     </div>
     </div>
-    </div>
+  </div>
   </div>
 </template>
 <script setup>
