@@ -5,7 +5,7 @@
     <div class="container-fluid p-0 mb-5">  
        <SubHeader page="Service"/> 
         <div  class="container px-md-5  ">
-          <div class="row d-flex flex-column flex-md-row">
+          <div class="row d-flex flex-column flex-lg-row flex-md-column">
             <div class="col gap-2 d-flex flex-column">
               <img style="height: 220px;object-fit: cover;" class="w-100" src="/img/worship.jpg" alt="Image" />
               <h5 class="text-primary">Worship & praise</h5>  
@@ -35,21 +35,21 @@
           <div class="d-flex flex-column justify-content-center mt-5  align-content-center ">
             <h3 class="text-center text-primary">The Experience</h3>
             <div class=" w-100 h-100 d-flex flex-column justify-content-center align-items-center overflow-hidden">
-              <div style="background:#eef2f3;" class="col-12 col-md-8 px-3 px-md-0 py-3 d-flex text-center justify-content-center align-content-center  wow animated slideInDown" data-wow-delay="0.1s">
+              <div style="background:#eef2f3;" class="col-12 col-lg-8 px-3 px-md-0 py-3 d-flex text-center justify-content-center align-content-center  wow animated slideInDown" data-wow-delay="0.1s">
                   <h6 >Your Expectations when you attend City of Lights service </h6>
                 </div>
-              <div class="d-flex w-100 justify-content-center flex-column flex-md-row gap-md-2 align-items-center">
-                <div style="background:#eef2f3;" class="col-12 col-md-3  d-flex flex-column p-3 wow animated slideInLeft" data-wow-delay="0.1s">
-                  <p class="text-center">Prayer & Worship filled atmosphere – Isaiah 56:7, Psalms 46:4-5</p>
-                  <p class="text-center">Authenticity & Freedom <em> 1 Peter 2:9 </em> </p>
-                  <p class="text-center">Growth  <em> 3 John 1:2 </em></p>
+              <div class="d-flex w-100 justify-content-center flex-column flex-lg-row gap-lg-2 align-items-center">
+                <div style="background:#eef2f3;" class="col-12 col-lg-3 d-flex h-75 flex-column p-3 px-5 wow animated slideInLeft" data-wow-delay="0.1s">
+                  <p class="text-center">Authenticity & Freedom <br/><em> 1 Peter 2:9</em> </p>
+                  <p class="text-center">Faith Filled Speech <br/> <em> 2 Corinthians 5:7 </em> </p>
+                  <p class="text-center py-1  ">Love of God and His People <em>John 13:34 </em></p>
 
                 
                 </div>
-                <div style="background:#eef2f3;" class="col-12 col-md-3 d-flex flex-column p-md-3 px-5  wow animated slideInRight" data-wow-delay="0.1s">
-                  <p class="text-center">Authenticity & Freedom <em> 1 Peter 2:9</em> </p>
-                  <p class="text-center">Faith Filled Speech <em> 2 Corinthians 5:7 </em> </p>
-                  <p class="text-center">Love of God and His People <em>John 13:34 </em></p>
+                <div style="background:#eef2f3;" class="col-12 col-lg-3  h-25 d-flex flex-column p-md-3 px-5  wow animated slideInRight" data-wow-delay="0.1s">
+                  <p class="text-center ">Prayer & Worship filled atmosphere <br/><em>Isaiah 56:7, Psalms 46:4-5 </em></p>
+                  <p class="text-center">Authenticity & Freedom <br/> <em> 1 Peter 2:9 </em> </p>
+                  <p class="text-center py-3">Growth  <em> 3 John 1:2 </em></p>
                 </div>
               </div>
               
