@@ -10,16 +10,15 @@
 
   <!-- Navbar Start -->
   <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-    <div
+    <!-- <div
       class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex"
     >
-      <div class="col-lg-6 px-5 text-start">
+      <div class="col-lg-12 px-5 text-start">
         <small
-          ><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York,
-          USA</small
-        >
+          ><i class="fa fa-map-marker-alt me-2"></i>
+        </small>
         <small class="ms-4"
-          ><i class="fa fa-envelope me-2"></i>info@example.com</small
+          ><i class="fa fa-envelope me-2"></i> </small
         >
       </div>
       <div class="col-lg-6 px-5 text-end">
@@ -37,14 +36,19 @@
           ><i class="fab fa-instagram"></i>{{
         }}</router-link>
       </div>
-    </div>
+    </div> -->
 
     <nav
       class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
       <router-link to="/" class="navbar-brand ms-4 ms-lg-0">
-        <img src="/img/logo.png" alt="logo" class="rounded shadow img-fluid" width="70px"/>
+        <img
+          src="/img/logo.png"
+          alt="logo"
+          class="rounded shadow img-fluid"
+          width="70px"
+        />
       </router-link>
       <button
         type="button"
@@ -94,7 +98,7 @@
         </div>
         <div class="d-none d-lg-flex ms-2">
           <router-link class="btn btn-outline-primary py-2 px-3" to="/contact">
-           Contact 
+            Contact
             <div
               class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
             >
@@ -137,9 +141,11 @@ $(window).scroll(function () {
     }
   } else {
     if ($(this).scrollTop() > 45) {
-      $(".fixed-top").addClass("bg-dark shadow").css("top", -45);
+      $(".fixed-top").addClass("bg-dark shadow");
+      // .css("top", -45);
     } else {
-      $(".fixed-top").removeClass("bg-dark shadow").css("top", 0);
+      $(".fixed-top").removeClass("bg-dark shadow");
+      // .css("top", 0);
     }
   }
 });

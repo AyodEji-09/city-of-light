@@ -82,41 +82,30 @@
             <div
               class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
             >
-              About Us
+              Vision
             </div>
-            <h1 class="display-6 mb-5">
+            <!-- <h1 class="display-6 mb-5">
               We Help People In Need Around The World
-            </h1>
+            </h1> -->
             <div
               class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4"
             >
               <p class="text-dark mb-2">
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
-                lorem sit clita duo justo erat amet
+                City of Lights (COL) is a pioneering youth church operating
+                under the Young Adults and Youth Affairs (YAYA) division of the
+                Redeemed Christian Church of God. City of Lights is a community
+                focused on bringing youths and young adults into the Light of
+                Christ so they can shine their God-given light to the world.
               </p>
-              <span class="text-primary">Jhon Doe, Founder</span>
             </div>
             <p class="mb-5">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              <strong>Matthew 5:14-16</strong> “You are the light of the world.
+              A town built on a hill cannot be hidden. Neither do people light a
+              lamp and put it under a bowl. Instead they put it on its stand,
+              and it gives light to everyone in the house. In the same way, let
+              your light shine before others, that they may see your good deeds
+              and glorify your Father in heaven.”
             </p>
-            <a class="btn btn-primary py-2 px-3 me-3" href="">
-              Learn More
-              <div
-                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
-              >
-                <i class="fa fa-arrow-right"></i>
-              </div>
-            </a>
-            <a class="btn btn-outline-primary py-2 px-3" href="">
-              Contact Us
-              <div
-                class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2"
-              >
-                <i class="fa fa-arrow-right"></i>
-              </div>
-            </a>
           </div>
         </div>
       </div>
@@ -125,7 +114,7 @@
   <!-- About End -->
 
   <!-- Causes Start -->
-  <div class="container-xxl bg-light my-5 py-5">
+  <!-- <div class="container-xxl bg-light my-5 py-5">
     <div class="container py-5">
       <div
         class="text-center mx-auto mb-5 wow fadeInUp"
@@ -138,7 +127,7 @@
           Feature Causes
         </div>
         <h1 class="display-6 mb-5">
-          Every Child Deserves The Opportunity To Learn
+          Who are we reaching and why?
         </h1>
       </div>
       <div class="row g-4 justify-content-center">
@@ -300,7 +289,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Causes End -->
 
   <!-- Service Start -->
@@ -316,61 +305,29 @@
         >
           What We Do
         </div>
-        <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
+        <h1 class="display-6 mb-5">Who are we reaching and why?</h1>
       </div>
       <div class="row g-4 justify-content-center">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
             <img class="img-fluid mb-4" src="/img/icon-1.png" alt="" />
-            <h4 class="mb-3">Child Education</h4>
             <p class="mb-4">
-              Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
-              justo sed vero dolor duo.
+              City of Lights is primarily based in Greenwich, CT, but our reach
+              extends to youths and young adults across Connecticut. Our target
+              demographic encompasses high school and college students,
+              non-students, and young working professionals, among others.
             </p>
-            <a class="btn btn-outline-primary px-3" href="">
-              Learn More
-              <div
-                class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2"
-              >
-                <i class="fa fa-arrow-right"></i>
-              </div>
-            </a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
             <img class="img-fluid mb-4" src="/img/icon-2.png" alt="" />
-            <h4 class="mb-3">Medical Treatment</h4>
             <p class="mb-4">
-              Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
-              justo sed vero dolor duo.
+              The mission, inspired by God, is to provide youths and young
+              adults an avenue to truly know and commune with Jesus Christ,
+              express their God-given gifts, and grow alongside their brothers
+              and sisters in Christ.
             </p>
-            <a class="btn btn-outline-primary px-3" href="">
-              Learn More
-              <div
-                class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2"
-              >
-                <i class="fa fa-arrow-right"></i>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-            <img class="img-fluid mb-4" src="/img/icon-3.png" alt="" />
-            <h4 class="mb-3">Pure Drinking Water</h4>
-            <p class="mb-4">
-              Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
-              justo sed vero dolor duo.
-            </p>
-            <a class="btn btn-outline-primary px-3" href="">
-              Learn More
-              <div
-                class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2"
-              >
-                <i class="fa fa-arrow-right"></i>
-              </div>
-            </a>
           </div>
         </div>
       </div>
@@ -379,7 +336,7 @@
   <!-- Service End -->
 
   <!-- Donate Start -->
-  <div
+  <!-- <div
     class="container-fluid donate my-5 py-5"
     data-parallax="scroll"
     data-image-src="/img/carousel-2.jpg"
@@ -477,11 +434,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Donate End -->
 
   <!-- Team Start -->
-  <div class="container-xxl py-5">
+  <!-- <div class="container-xxl py-5">
     <div class="container">
       <div
         class="text-center mx-auto mb-5 wow fadeInUp"
@@ -586,11 +543,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Team End -->
 
   <!-- Testimonial Start -->
-  <div class="container-xxl py-5">
+  <!-- <div class="container-xxl py-5">
     <div class="container">
       <div
         class="text-center mx-auto mb-5 wow fadeInUp"
@@ -660,7 +617,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Testimonial End -->
 </template>
 

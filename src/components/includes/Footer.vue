@@ -18,7 +18,7 @@
           <p class="mt-2">
             ...And God said, “Let there be light,” and there was light.
           </p>
-          <div class="d-flex pt-2">
+          <!-- <div class="d-flex pt-2">
             <a class="btn btn-square me-1" href=""
               ><i class="fab fa-twitter"></i>{{}}</a
             >
@@ -31,15 +31,16 @@
             <a class="btn btn-square me-0" href=""
               ><i class="fab fa-linkedin-in"></i>{{}}</a
             >
-          </div>
+          </div> -->
         </div>
         <div class="col-lg-4 col-md-6">
           <h5 class="text-light mb-4">Address</h5>
           <p>
-            <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+            <i class="fa fa-map-marker-alt me-3"></i>Riverside Ballroom, Hyatt
+            Regency, 1800 E Putnam Ave, Old Greenwich, CT 06870
           </p>
-          <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-          <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+          <!-- <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
+          <p><i class="fa fa-envelope me-3"></i>cityoflightsyaya@gmail.com</p>
         </div>
         <div class="col-lg-4 col-md-6">
           <h5 class="text-light mb-4 text-underline">Quick Links</h5>
@@ -60,7 +61,7 @@
         <div class="row">
           <div class="col-12 text-center mb-3 mb-md-0 small">
             &copy;
-            <span>The Redeemed Christain Church Of God, City Of Light.</span> 
+            <span>The Redeemed Christain Church Of God, City Of Light.</span>
             All Right Reserved.
           </div>
         </div>
