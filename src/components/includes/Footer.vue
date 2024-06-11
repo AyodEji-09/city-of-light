@@ -61,7 +61,7 @@
         <div class="row">
           <div class="col-12 text-center mb-3 mb-md-0 small">
             &copy;
-            <span>The Redeemed Christain Church Of God, City Of Light.</span>
+            <span>City of Lights, Redeemed Christian Church of God.</span>
             All Right Reserved.
           </div>
         </div>

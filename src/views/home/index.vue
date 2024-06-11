@@ -13,7 +13,7 @@
                     ...And God said, “Let there be light,” and there was light.
                   </h1>
                   <p class="fs-5 text-white-50 mb-5 animated slideInDown">
-                    The Redeemed Christain Church of God
+                    City of Lights
                   </p>
                   <router-link
                     class="btn btn-primary py-2 mt-5 px-3 animated slideInDown"
