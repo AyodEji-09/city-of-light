@@ -46,11 +46,10 @@
       <div
         class="d-flex flex-column justify-content-center mt-5 align-content-center"
       >
-        <h3 class="text-center text-primary">The Experience</h3>
+        <h3 class="text-center">The Experience</h3>
         <div
           class="w-100 h-100 d-flex flex-column justify-content-center align-items-center overflow-hidden"
         >
-          <!-- style="background: #eef2f3" -->
           <div
             class="col-12 col-lg-8 px-3 px-md-0 py-3 d-flex text-center justify-content-center align-content-center wow animated slideInDown"
             data-wow-delay="0.1s"
@@ -72,7 +71,7 @@
                 Faith Filled Speech -
                 <em> 2 Corinthians 5:7 </em>
               </p>
-              <p class="text-center py-1">
+              <p class="text-center">
                 Love of God and His People - <em>John 13:34 </em>
               </p>
 
@@ -84,7 +83,7 @@
                 Authenticity & Freedom -
                 <em> 1 Peter 2:9 </em>
               </p>
-              <p class="text-center py-3">Growth - <em> 3 John 1:2 </em></p>
+              <p class="text-center">Growth - <em> 3 John 1:2 </em></p>
             </div>
           </div>
         </div>

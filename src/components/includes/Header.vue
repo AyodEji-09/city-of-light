@@ -44,7 +44,7 @@
     >
       <router-link to="/" class="navbar-brand ms-4 ms-lg-0">
         <img
-          src="/img/logo.png"
+          src="/img/logo-png.png"
           alt="logo"
           class="rounded shadow img-fluid"
           width="70px"
